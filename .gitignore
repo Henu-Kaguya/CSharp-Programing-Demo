@@ -1,0 +1,32 @@
+# ==========================================
+# C# & Visual Studio Git Ignore Configuration
+# ==========================================
+
+# Build outputs (Compiled binaries, build logs, and intermediate files)
+[Bb]in/
+[Oo]bj/
+[Dd]ist/
+
+# NuGet Packages
+packages/
+
+# User-specific files and settings
+*.user
+*.suo
+*.sln.user
+*.userosscache
+*.sln.docstates
+
+# IDE-specific folders (Visual Studio & VS Code cache)
+.vs/
+.vscode/
+
+# Runtime and temporary files
+*.dll
+*.exe
+*.pdb
+*.log
+
+# Database Files
+!*.mdf
+!*.ldf
